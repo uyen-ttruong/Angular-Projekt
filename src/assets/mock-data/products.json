@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Wantan Suppe",
+    "price": 13,
+    "description": "Herzhafte Suppe mit Weizennudelteigtasche. Die Füllung besteht aus gewürzem Garnelen- und Hühnchenhack ",
+    "image": "wantan.jpg"
+  },
+  {
+    "title": "Lila Süßkartoffelsuppe",
+    "price": 6,
+    "description": "Süßkartoffel-Kokos-Suppe mit frischem Koriander und Thai-Basilikum.",
+    "image": "soup.jpg"
+  },
+  {
+    "title": "Bun ca",
+    "price": 7,
+    "description": "Die Grundlage dieser leckeren Fischsuppe ist eine leichte Brühe mit einer Einlage Weißfisch und Fischfrikadellen mit dicken Nudeln aus Tapiokamehl. Der Fisch wird frittiert, in dünne Scheiben geschnitten und nachträglich in die mit Kräutern, Bohnensprossen und Schweineknochen verfeinerte Brühe gelegt. Dazu werden Frühlingszwiebeln, Chilis und eine halbe Limette serviert.",
+    "image": "bun.jpg"
+  },
+  {
+    "title": "Summer Salat",
+    "price": 5,
+    "description": "Die Zugabe von Pfirsichen, Nektarinen, Erdbeeren und Brombeeren macht aus einem einfachen Salat den ganz großen Genuss",
+    "image": "salad.jpg"
+  },
+  {
+    "title": " Banhmi",
+    "price": 15,
+    "description": " Der knusprig gebackenen Brothälften eines klassischen französischen Baguettes, dass während der Kolonialzeit nach Vietnam geschwappt ist.  Klassisch wird das bánh mì mit Mayonaise, Pate, verschiedenen Fleischsorten, knackigen Gurken, Lauch, Chili, in Reisessig einglegtem Möhren- Daikon- Gemüse und viel Koriander belegt.",
+    "image": "banhmi.jpg"
+  },
+  {
+    "title": " Pho",
+    "price": 10,
+    "description": "Phở ist eine traditonelle Suppe der vietnamesischen Küche. Sie wird in einer Schüssel gereicht und enthält neben einer kräftigen klaren Brühe D Reisbandnudeln und wahlweise feine Scheiben Rindfleisch, zartes Hähnchen oder würzigen Tofu. Garniert mit Lauchzwiebeln, Koriander, Basilikum, Sojasprossen und weißem Pfeffer.",
+    "image": "pho1.jpg"
+  }
+]

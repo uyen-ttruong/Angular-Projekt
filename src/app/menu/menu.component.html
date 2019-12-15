@@ -1,0 +1,35 @@
+
+<style>
+    body {
+      background-image: url("./assets/imgs/back.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1500px;
+    height: 1000px;
+   
+    }
+    </style>
+<body>
+            <div class="header-text-title">MENU</div>
+           
+
+<div class="layout-container">
+    <div class="product-grid">
+        <div class="col-md-4 col-sm-6" *ngFor="let product of products;let i = index" style="position:relative; left:100px">
+          
+            <div class="product-details" >
+                <div class="product-title">{{product.title}}</div>
+                <div class="product-price">{{product.price | currency :'EUR':true }}</div>
+			</div>
+			
+                <div class="overlay">
+                    <div class="button button-primary" (click)="addToCart(product)">+</div>
+                </div>
+           
+        </div>
+    </div>
+</div>
+</body>

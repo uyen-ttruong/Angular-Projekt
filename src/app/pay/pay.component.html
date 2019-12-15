@@ -1,0 +1,63 @@
+
+<div class="row"style="position:relative; left:300px; right:70px;top: 70px;">
+  <div class="col-50">
+    <h3 style="font-size:1.5em;font-weight: 400;font-family: Playfair Display">VERSANDADRESSE</h3>
+    <label for="fname"><i class="fa fa-user"></i> Vollname</label>
+    <input type="text" id="fname" name="firstname" >
+    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+    <input type="text" id="email" name="email" >
+    <label for="adr"><i class="fa fa-address-card-o"></i> Addresse</label>
+    <input type="text" id="adr" name="address">
+    <label for="city"><i class="fa fa-institution"></i> Stadt</label>
+    <input type="text" id="city" name="city">
+
+    <div class="row">
+      <div class="col-50">
+        <label for="state">Ort</label>
+        <input type="text" id="state" name="state" >
+      </div>
+      <div class="col-50">
+        <label for="zip">PLZ</label>
+        <input type="text" id="zip" name="zip" >
+      </div>
+    </div>
+  </div>
+
+  <div class="col-50">
+      <h3 style="font-size:1.5em;font-weight: 400;font-family: Playfair Display">ZAHLUNGSMETHODEN</h3>
+      <label for="fname">Akzeptierte Karte</label>
+      <div class="icon-container">
+        <i class="fa fa-cc-visa" style="color:navy;"></i>
+        <i class="fa fa-cc-amex" style="color:blue;"></i>
+        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+        <i class="fa fa-cc-discover" style="color:orange;"></i>
+      </div>
+      <label for="cname">Karteninhaber</label>
+      <input type="text" id="cname" name="cardname" >
+      <label for="ccnum">Kartennummer</label>
+      <input type="text" id="ccnum" name="cardnumber" >
+     
+
+      <div class="row">
+        <div class="col-50">
+          <label for="expyear">Gültig bis</label>
+          <input type="text" id="expyear" name="expyear" >
+        </div>
+        <div class="col-50">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" >
+        </div>
+      </div>
+    </div>
+    <label style="position:relative; right:400px; top: 500px">
+      <input type="checkbox" checked="checked" name="sameadr" > Lieferadresse gleich Rechnungsadresse
+    </label>
+
+    
+<button (click)="myFunction()" class="btn">Weiter</button>
+   
+      
+      
+    
+ 
+<router-outlet></router-outlet>

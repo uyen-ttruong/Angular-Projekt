@@ -1,0 +1,27 @@
+<div class="header-image">
+    <div class="header-block">
+        <div class="header-text">
+            <div class="header-text-title">Unsere Favoriten</div>
+            <p>
+                Werft einen Blick auf unsere Speisekarte mit Essen und Getränken gemacht mit LIEBE. Wählt eines unserer Restaurants aus.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="layout-container">
+    <div class="product-grid">
+        <div class="col-md-4 col-sm-6" *ngFor="let product of products;let i = index">
+            <div class="image-container">
+                <div class="product-image" [ngStyle]="{'background-image': 'url(./assets/imgs/' + product.image + ')'}"></div>
+                <div class="overlay">
+                    <div class="button button-primary" [routerLink]="['../product',i+1]">Ansehen</div>
+                    <div class="button button-primary" (click)="addToCart(product)">Hinzufügen</div>
+                </div>
+            </div>
+            <div class="product-details">
+                <div class="product-title">{{product.title}}</div>
+                <div class="product-price">{{product.price | currency :'EUR':true }}</div>
+            </div>
+        </div>
+    </div>
+</div>

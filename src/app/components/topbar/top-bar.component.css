@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+    .compare-bar-content {
+        text-align: center
+    }
+ 
+    }
+    .header-mobile-nav-wrapper {
+        display: none
+    }
+    .mobil-shopping-cart {
+        display: none
+    }
+
+@media screen and (max-width: 767px) {
+    .header-nav-wrapper {
+        display: none
+    }
+    .mobile-header-nav li {
+        display: block;
+        line-height: 30px;
+    }
+    
+    
+    .header-mobile-nav-wrapper {
+        display: table-cell;
+        float:left;
+    }
+    .header-cart-item {
+        display: none
+    }
+}
